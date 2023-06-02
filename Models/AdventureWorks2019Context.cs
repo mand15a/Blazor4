@@ -10,6 +10,9 @@ namespace Blazor4.Models;
 
 public class AdventureWorks2019Context :DbContext
 {
+    public AdventureWorks2019Context()
+    {
+    }
     public  IConfiguration _configuration;
     public IConfigurationRoot Configuration { get; }
 
